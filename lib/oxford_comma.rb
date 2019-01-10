@@ -4,7 +4,7 @@ def oxford_comma(array)
     when 0
       ''
     when 1
-      array.to_s.dup
+      array[0]
     when 2
       "#{array[0]} and #{array[1]}"
     else
