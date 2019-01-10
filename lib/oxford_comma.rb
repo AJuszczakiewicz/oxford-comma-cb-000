@@ -8,6 +8,6 @@ def oxford_comma(array)
   when array > 2
     last = array.pop
     phrase = array.join!(', ')
-    phrase << " and #{last}"
+    phrase << " , and #{last}"
   end
 end
