@@ -5,7 +5,7 @@ def oxford_comma(array)
     phrase = array.join()
   when 2
     phrase = array.join(" and ")
-  when array > 2
+  when array_size > 2
     last = array.pop
     phrase = array.join!(', ')
     phrase << " , and #{last}"
