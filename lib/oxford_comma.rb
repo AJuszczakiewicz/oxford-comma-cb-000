@@ -4,7 +4,7 @@ def oxford_comma(array)
   when 0,1
     phrase = array.join()
   when 2
-    phrase = array.join(", ")
+    phrase = array.join(" and ")
   when array > 2
     last = array.pop
     phrase = array.join!(', ')
